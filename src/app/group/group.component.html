@@ -1,0 +1,16 @@
+<div class="col-md-4 view">
+  <div class="row">
+    <div class="col-md-12">
+      <img
+        [src]="group.imageUrl"
+        class="img-responsive group-icon"
+        alt="Green"
+      />
+    </div>
+  </div>
+  <div class="row" *ngIf="group.name !== ''">
+    <div class="col-md-12">
+      <h3>{{ group.name }}</h3>
+    </div>
+  </div>
+</div>

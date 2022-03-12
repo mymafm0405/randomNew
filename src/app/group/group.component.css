@@ -1,0 +1,8 @@
+.view {
+  border: 1px dashed #333;
+  text-align: center;
+}
+.group-icon {
+  height: 500px;
+  margin: 0 auto;
+}
